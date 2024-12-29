@@ -4,17 +4,25 @@ import mcpi.block as block
 import mcpi.minecraftstuff as minecraftstuff
 import mcpi.event as event
 import random
+from Agent import FunctionalAgent
 
 mc = Minecraft.Minecraft.create()
-insults = ["gilipollas", "idiota", "imbécil", "tonto", "estúpido"]
+
+def insult_behavior(agent):
+    insults = ["gilipollas", "idiota", "imbecil", "tonto", "estupido"]
+    agent.send_message(random.choice(insults))
+
+# Initialize InsultBot
+insult_bot = FunctionalAgent("InsultBot")
+insult_bot.add_behavior(insult_behavior)
 
 while True:
     chat_events = mc.events.pollChatPosts()
     for chat_event in chat_events:
         if chat_event.message != "adios":
-            insult = random.choice(insults)
-            mc.postToChat(insult)
+            insult_bot.run_behaviors()
             break
         if chat_event.message == "adios":
             mc.postToChat("Adios, hasta luego")
             exit()
+
