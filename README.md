@@ -14,7 +14,6 @@ This repository, **tapminecraft**, contains a Python framework for developing an
   - Example bots include:
     - **InsultBot**: Sends playful insults in the chat.
     - **TNTBot**: Places and explodes TNT blocks.
-    - **OracleBot**: Answers player questions using predefined responses.
 
 - **Integration with `mcpi` Library**:
   - Utilizes the `mcpi` library from the `AdventuresInMinecraft` repository for seamless interaction with Minecraft Java Edition.
