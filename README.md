@@ -1,4 +1,5 @@
 # Minecraft Agent Framework
+[![codecov](https://codecov.io/gh/Nil616/tapminecraft/graph/badge.svg?token=Y2LIF8V8Y6)](https://codecov.io/gh/Nil616/tapminecraft)
 
 This repository, **tapminecraft**, contains a Python framework for developing and running agents in **Minecraft Java Edition (version 1.12)**. The agents can interact with the Minecraft world by moving, building, destroying blocks, and sending/receiving chat messages. The framework leverages functional and reflective programming to create dynamic and customizable behaviors for bots.
 
