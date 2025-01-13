@@ -45,10 +45,6 @@ This repository, **tapminecraft**, contains a Python framework for developing an
 
 2. Ensure the `mcpi` folder is available in the project directory.
 
-3. Install any additional dependencies (if required):
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ## Usage
 
@@ -56,12 +52,13 @@ This repository, **tapminecraft**, contains a Python framework for developing an
 
 1. **Start Minecraft Java Edition (1.12)**:
    - Open Minecraft Java Edition version 1.12 on your computer.
-   - Create a new world in Creative Mode or connect to a server.
+   - Start the Adventures in Minecraft server
+   - Connect to the Adventures in Minecraft server using localhost as IP.
 
 2. **Run a Bot Script**:
    - Execute a bot script from this repository. For example, to run `InsultBot`:
      ```bash
-     python3 InsultBot.py
+     python3 .\InsultBot.py
      ```
 
 3. **Interact In-Game**:
