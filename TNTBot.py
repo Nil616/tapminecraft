@@ -18,3 +18,4 @@ tnt_bot.add_method("ignite_tnt", ignite_tnt)
 # Demonstration
 tnt_bot.invoke_method("deploy_tnt")
 tnt_bot.invoke_method("ignite_tnt")
+tnt_bot.deploy_tnt()

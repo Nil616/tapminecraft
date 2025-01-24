@@ -15,6 +15,7 @@ def insult_behavior(agent):
 # Initialize InsultBot
 insult_bot = FunctionalAgent("InsultBot")
 insult_bot.add_behavior(insult_behavior)
+insult_bot.add_behavior(lambda agent: agent.send_message("I'm InsultBot!"))
 
 print("InsultBot initialized and running...")
 mc.postToChat("InsultBot initialized and running...")

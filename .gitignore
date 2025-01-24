@@ -1,1 +1,5 @@
-_pycache_
+__pycache__
+.vscode
+.coverage
+.pytest_cache
+coverage.xml

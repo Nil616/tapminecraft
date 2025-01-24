@@ -96,4 +96,4 @@ FENCE_GATE          = Block(107)
 REDSTONE_BLOCK      = Block(152)
 GLOWING_OBSIDIAN    = Block(246)
 NETHER_REACTOR_CORE = Block(247)
-
+ANVIL               = Block(145)
